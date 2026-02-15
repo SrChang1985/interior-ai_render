@@ -1,0 +1,112 @@
+# config/material_presets.yaml (actualizado)
+
+living_room:
+  - name: "Salón Escandinavo Mañana"
+    material_prompt: "oak wood coffee table, light gray fabric sofa, white walls, birch hardwood floor, wool rug"
+    style_preset: "Escandinavo Moderno"
+    lighting_profile: "natural_morning"
+    category: "living_room"
+    description: "Estilo nórdico con luz de mañana suave y cálida (3000K)"
+    
+  - name: "Salón Escandinavo Tarde"
+    material_prompt: "oak wood coffee table, light gray fabric sofa, white walls, birch hardwood floor, wool rug"
+    style_preset: "Escandinavo Moderno"
+    lighting_profile: "mixed_scandinavian"
+    category: "living_room"
+    description: "Estilo nórdico con mezcla de luz natural y lámparas cálidas (5000K + 2700K)"
+    
+  - name: "Salón Industrial Loft Día"
+    material_prompt: "reclaimed wood furniture, exposed brick wall, concrete floor, metal accents, leather sofa"
+    style_preset: "Industrial Contemporáneo"
+    lighting_profile: "natural_midday"
+    category: "living_room"
+    description: "Loft industrial con luz de día brillante (5000K)"
+    
+  - name: "Salón Acogedor Noche"
+    material_prompt: "oak wood furniture, fabric sofa, warm textiles, area rug, decorative lamps"
+    style_preset: "Fotografía de Interiores Profesional"
+    lighting_profile: "artificial_warm_cozy"
+    category: "living_room"
+    description: "Ambiente acogedor con iluminación cálida nocturna (2700K)"
+
+bedroom:
+  - name: "Dormitorio Hora Dorada"
+    material_prompt: "oak platform bed, linen bedding, wool blanket, hardwood floor, minimal nightstand"
+    style_preset: "Escandinavo Moderno"
+    lighting_profile: "natural_golden_hour"
+    category: "bedroom"
+    description: "Dormitorio con luz dorada de atardecer (2700K)"
+    
+  - name: "Dormitorio Mañana Fresca"
+    material_prompt: "oak platform bed, linen bedding, wool blanket, hardwood floor, minimal nightstand"
+    style_preset: "Escandinavo Moderno"
+    lighting_profile: "natural_morning"
+    category: "bedroom"
+    description: "Dormitorio con luz de mañana suave (3000K)"
+    
+  - name: "Dormitorio Noche Romántico"
+    material_prompt: "upholstered headboard, silk bedding, velvet bench, bedside lamps"
+    style_preset: "Lujo Clásico"
+    lighting_profile: "night_ambient"
+    category: "bedroom"
+    description: "Ambiente romántico con iluminación tenue (2200K)"
+
+dining_room:
+  - name: "Comedor Restaurante"
+    material_prompt: "walnut dining table, leather upholstered chairs, marble sideboard, hardwood floor"
+    style_preset: "Fotografía de Interiores Profesional"
+    lighting_profile: "mixed_restaurant"
+    category: "dining_room"
+    description: "Atmósfera de restaurante con lámparas colgantes (2200K-2700K)"
+    
+  - name: "Comedor Luz Natural"
+    material_prompt: "oak dining table, fabric chairs, minimal decor, large windows"
+    style_preset: "Escandinavo Moderno"
+    lighting_profile: "natural_midday"
+    category: "dining_room"
+    description: "Comedor con abundante luz natural (5000K)"
+
+kitchen:
+  - name: "Cocina Trabajo Brillante"
+    material_prompt: "white cabinets, quartz countertops, subway tiles, stainless appliances"
+    style_preset: "Fotografía de Interiores Profesional"
+    lighting_profile: "artificial_neutral_work"
+    category: "kitchen"
+    description: "Cocina con iluminación de trabajo neutra (3500K-4000K)"
+    
+  - name: "Cocina Luz Natural"
+    material_prompt: "white cabinets, oak countertops, subway tiles, concrete floor"
+    style_preset: "Escandinavo Moderno"
+    lighting_profile: "natural_morning"
+    category: "kitchen"
+    description: "Cocina con luz natural de mañana (3000K)"
+
+office:
+  - name: "Oficina Productiva"
+    material_prompt: "floating desk, oak wood, white walls, ergonomic chair, minimal setup"
+    style_preset: "Minimalista Japonés"
+    lighting_profile: "artificial_neutral_work"
+    category: "office"
+    description: "Oficina con iluminación de trabajo óptima (3500K-4000K)"
+    
+  - name: "Oficina Luz Natural"
+    material_prompt: "wooden desk, large window, plants, natural materials"
+    style_preset: "Escandinavo Moderno"
+    lighting_profile: "natural_midday"
+    category: "office"
+    description: "Oficina con abundante luz natural (5000K)"
+
+commercial:
+  - name: "Tienda Boutique"
+    material_prompt: "display shelves, accent lighting, polished floor, modern fixtures"
+    style_preset: "Fotografía de Interiores Profesional"
+    lighting_profile: "mixed_boutique"
+    category: "commercial"
+    description: "Iluminación comercial con acentos (3500K + spots 5500K)"
+    
+  - name: "Galería Arte"
+    material_prompt: "white walls, track lighting, polished concrete floor, minimal decor"
+    style_preset: "Minimalista Japonés"
+    lighting_profile: "dramatic_studio"
+    category: "commercial"
+    description: "Iluminación de galería tipo estudio (5000K)"

@@ -1,0 +1,110 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 cat > .gitignore << 'EOF'\
+# Python\
+__pycache__/\
+*.py[cod]\
+*$py.class\
+*.so\
+.Python\
+build/\
+develop-eggs/\
+dist/\
+downloads/\
+eggs/\
+.eggs/\
+lib/\
+lib64/\
+parts/\
+sdist/\
+var/\
+wheels/\
+pip-wheel-metadata/\
+share/python-wheels/\
+*.egg-info/\
+.installed.cfg\
+*.egg\
+MANIFEST\
+\
+# Virtual Environment\
+venv/\
+env/\
+ENV/\
+env.bak/\
+venv.bak/\
+\
+# Modelos y datos grandes\
+models/\
+*.pth\
+*.ckpt\
+*.safetensors\
+\
+# Base de datos\
+data/*.db\
+data/*.db-journal\
+*.sqlite\
+*.sqlite3\
+\
+# Outputs y renders\
+outputs/\
+renders_input/*.png\
+renders_input/*.jpg\
+renders_input/*.jpeg\
+\
+# Logs\
+logs/\
+*.log\
+\
+# IDE\
+.vscode/\
+.idea/\
+*.swp\
+*.swo\
+*~\
+.DS_Store\
+\
+# Jupyter Notebook\
+.ipynb_checkpoints\
+\
+# pyenv\
+.python-version\
+\
+# Temporales\
+*.tmp\
+*.bak\
+*.backup\
+temp/\
+tmp/\
+\
+# Cache de HuggingFace\
+.cache/\
+huggingface/\
+\
+# Configuraci\'f3n espec\'edfica de usuario\
+config/hardware_profile.yaml\
+\
+# Backups\
+backups/\
+*.tar.gz\
+*.zip\
+\
+# macOS\
+.DS_Store\
+.AppleDouble\
+.LSOverride\
+Icon\
+._*\
+\
+# Windows\
+Thumbs.db\
+ehthumbs.db\
+Desktop.ini\
+\
+# Exports\
+exports/\
+EOF}

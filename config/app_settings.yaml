@@ -1,0 +1,27 @@
+# Configuración general de la aplicación
+
+app:
+  name: "Interior AI Render"
+  version: "1.0.0-MVP"
+  port: 7860
+  host: "127.0.0.1"
+  share: false  # No compartir públicamente por confidencialidad
+
+paths:
+  outputs: "outputs"
+  renders_input: "renders_input"
+  database: "data/renders.db"
+  models_cache: "models"
+
+generation:
+  default_negative_prompt: "cartoon, 3d render, painting, illustration, anime, sketch, blurry, ugly, distorted, low quality, watermark, text, oversaturated, underexposed, overexposed, bad lighting"
+  
+models:
+  base_model: "runwayml/stable-diffusion-v1-5"
+  controlnet: "lllyasviel/control_v11p_sd15_canny"
+
+ui:
+  theme: "soft"
+  show_advanced_settings: true
+  enable_preset_system: true
+  enable_lighting_control: true
